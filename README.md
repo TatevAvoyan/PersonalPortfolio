@@ -33,14 +33,17 @@ If you want to run this project locally:
 ## 📂 Project Structure
 ```
 PersonalPortfolio/
-│-- index.html
-│-- css/
-│   ├── style.css
-│-- js/
-│   ├── script.js
-│-- images/
-│-- projects/
-│-- README.md
+│-- assets/        # Main folder for all media assets
+│   ├── images/    # Static images (JPG, PNG, SVG, etc.)
+│   ├── gifs/      # Animated GIFs
+│   ├── videos/    # Video files (MP4, WebM, etc.)
+│   ├── icons/     # Icons and small UI elements
+│   ├── fonts/     # Custom fonts (if needed)
+│-- css/           # Stylesheets
+│-- js/            # JavaScript files
+│-- projects/      # Project-related files
+│-- index.html     # Main HTML file
+│-- README.md      # Project documentation
 ```
 
 ## 📌 Future Improvements
