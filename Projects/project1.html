@@ -10,7 +10,7 @@
 <!-- Header -->
 <header class="header">
   <div class="container">
-    <div class="logo">Tatevik Avoyan</div>
+    <div class="logo">Wilder World</div>
     <nav class="navigation">
       <a href="../index.html#work">Back to Projects</a>
       <a href="../index.html#about">About</a>
@@ -22,13 +22,68 @@
 <!-- Project Details Section -->
 <section class="project-details">
   <div class="container">
-    <h2>Project 1 Title</h2>
-    <p>This is the detailed description of Project 1. Write about what this project does, its features, the technology used, and any challenges you overcame while working on it.</p>
+      <div class="resume-summary">
+        <p>
+          A multiplayer metaverse featuring racing, open-world exploration, and shooter mechanics.
 
+          Wilder World is an immersive decentralized metaverse built on Ethereum and Unreal Engine 5, offering a next-gen gaming experience. The game combines open-world exploration, competitive racing, and first-person shooter elements in a dynamic, ever-evolving environment.        </p>
+      <br>
+      
+      <h3>Features & Gameplay</h3>
+      <br>
+      <ul class="resume-list">
+        <li><strong>Wiami – A Futuristic Open World:</strong> A cyberpunk-style city inspired by Miami, where players can explore, interact, and engage in various activities.</li>
+        <li><strong>High-Speed NFT-Based Racing:</strong> Players can own and race fully customizable NFT vehicles.</li>
+        <li><strong>Decentralized & Community-Driven:</strong>  Uses the $WILD token for governance, transactions, and rewards.</li>
+        <li><strong>Multiplayer Combat & Shooter Mode:</strong>  A seamless first-person shooter experience integrated within the metaverse.</li>
+        <li><strong>Player-Owned Economy:</strong>  Assets like cars, land, and avatars are represented as NFTs, allowing real ownership and trade..</li>
+      </ul>
+    </div>
      <!-- Media Section -->
     <div class="project-media">
-      <img src="../assets/images/project1-image.jpg" alt="Screenshot of Project 1">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/sample-id" title="Project 1 Video"></iframe>
+
+      <div id="iframe"></div>
+      <!-- Video containers -->
+      <div id="player1"></div>
+      <div id="player2"></div>
+      <div id="player3"></div>
+      <div id="player4"></div>
+
+      <script>
+        // Load the YouTube IFrame Player API asynchronously
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/player_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        var players = {}; // Store multiple players
+
+        function onYouTubePlayerAPIReady() {
+          players["player1"] = new YT.Player('player1', {
+            height: '315',
+            width: '500',
+            videoId: '7G8SwYp6gPo'
+          });
+
+          players["player2"] = new YT.Player('player2', {
+            height: '315',
+            width: '500',
+            videoId: 'SnFPK5nlR2Q'
+          });
+
+          players["player3"] = new YT.Player('player3', {
+            height: '315',
+            width: '500',
+            videoId: 'E1HEjfD0kEo'
+          });
+
+          players["player4"] = new YT.Player('player4', {
+            height: '315',
+            width: '500',
+            videoId: 'ebTCF6SWJyw'
+          });
+        }
+      </script>
     </div>
   </div>
 
@@ -37,8 +92,8 @@
 <section>
   <!-- Project Links -->
   <div class="project-links">
-    <a href="https://github.com/TatevAvoyan" target="_blank" class="button">GitHub Repository</a>
-    <a href="https://example.com/project1" target="_blank" class="button">Live Demo</a>
+    <a href="https://www.wilderworld.com/" target="_blank" class="button">Wilder World</a>
+    <a href="https://store.epicgames.com/en-US/p/wilder-world-5fe948" target="_blank" class="button">Epic Games Link</a>
   </div>
 
 </section>

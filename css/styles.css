@@ -40,6 +40,7 @@ body {
 }
 
 .logo {
+    color: #00bcd4;
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -166,6 +167,7 @@ body {
 
 .section-description {
     font-size: 1.2rem;
+    margin-right: 50px;
     margin-bottom: 50px;
     font-weight: 300;
     color: #aaa;
@@ -292,8 +294,7 @@ body {
     flex-direction: column;
     gap: 20px;
     max-width: 400px;
-    margin: 0 auto;
-    margin-top: 20px;
+    margin: 20px auto 0;
 }
 
 .contact-item {
