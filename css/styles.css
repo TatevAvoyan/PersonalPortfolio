@@ -387,6 +387,10 @@ body {
     text-align: center;
 }
 
+.project-summary{
+    margin-right: 50px;    
+}
+
 .project-details h2 {
     color: #00bcd4;
     margin-bottom: 20px;
